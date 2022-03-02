@@ -63,6 +63,7 @@ span{
     width: 230px;
     border: 3px solid rgb(128, 128, 250);
     border-radius: 10px 10px 10px 10px;
+    filter: saturate(110%);
     
 }
 .random-container{
@@ -73,8 +74,13 @@ span{
 }
 .random-info{
     padding: 50px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px black;
+    -webkit-text-stroke: #1F2937 1px;
 }
 .collage{
     display: flex;
@@ -91,4 +97,59 @@ span{
 .quote{
     font-size: 30px;
     font-style: italic;
+}
+.credit{
+    font-family: cursive;
+    float: right;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.action{
+    display: flex;
+    background-color: rgb(111, 111, 255);
+    justify-content: space-between;
+    width: 900px;
+    padding: 40px;
+    align-items: center;
+}
+.left-action{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.smallaction{
+    font-size: 20px;
+    font-weight: 400;
+}
+.sign2{
+    background-color: rgb(111, 111, 255);
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    border: 2px white solid;
+    padding: 3px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: transform .3s ease-in-out;
+}
+.sign2:hover{
+    transform: scale(1.2)
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
